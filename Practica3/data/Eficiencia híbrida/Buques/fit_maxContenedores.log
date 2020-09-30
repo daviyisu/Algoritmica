@@ -1,0 +1,38 @@
+
+
+*******************************************************************************
+Thu Apr 30 13:08:00 2020
+
+
+FIT:    data read from 'salida_max_contenedores.dat'
+        format = z
+        #datapoints = 10
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a0*x*x+a1*x+a2
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a0            a1            a2           
+   0 2.5339050421e+16   0.00e+00  2.91e+07    1.000000e+00   1.000000e+00   1.000000e+00
+  12 6.0907890283e-05  -1.08e-09  2.91e-05    1.456953e-08  -1.002736e-06   2.648483e-03
+
+After 12 iterations the fit converged.
+final sum of squares of residuals : 6.09079e-05
+rel. change during last iteration : -1.07917e-14
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00294977
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8.70113e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a0              = 1.45695e-08      +/- 1.284e-10    (0.8811%)
+a1              = -1.00274e-06     +/- 1.449e-06    (144.5%)
+a2              = 0.00264848       +/- 0.003469     (131%)
+
+correlation matrix of the fit parameters:
+                a0     a1     a2     
+a0              1.000 
+a1             -0.975  1.000 
+a2              0.814 -0.909  1.000 

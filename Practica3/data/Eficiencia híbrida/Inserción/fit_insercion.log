@@ -1,0 +1,49 @@
+
+
+*******************************************************************************
+Thu Apr 30 12:59:00 2020
+
+
+FIT:    data read from 'salida_insercion.dat'
+        format = z
+        #datapoints = 4
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a0*x*x*x+a1*x*x+a2*x+a3
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Thu Apr 30 12:59:11 2020
+
+
+FIT:    data read from 'salida_insercion.dat'
+        format = z
+        #datapoints = 4
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a0*x*x*x+a1*x*x+a2*x+a3
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a0            a1            a2            a3           
+   0 1.8250073869e+03   0.00e+00  7.54e+00    1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00
+  13 9.7508725769e-35   0.00e+00  7.54e+00    3.495067e-02  -1.044200e-01   6.953633e-02   6.300000e-05
+
+After 13 iterations the fit converged.
+final sum of squares of residuals : 9.75087e-35
+abs. change during last iteration : 0
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a0              = 0.0349507      
+a1              = -0.10442       
+a2              = 0.0695363      
+a3              = 6.3e-05        

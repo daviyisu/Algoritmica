@@ -1,0 +1,38 @@
+
+
+*******************************************************************************
+Mon Apr 27 10:15:04 2020
+
+
+FIT:    data read from 'salida_espiral.dat'
+        format = z
+        #datapoints = 4
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*x*x*log(x)+b*x+c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 4.7023627205e-12   0.00e+00  3.21e-04    2.309995e-09   1.532188e-06  -3.490159e-06
+   1 4.7023627205e-12   0.00e+00  3.21e-04    2.309995e-09   1.532188e-06  -3.490159e-06
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 4.70236e-12
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.16849e-06
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.70236e-12
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 2.31e-09         +/- 6.137e-11    (2.657%)
+b               = 1.53219e-06      +/- 1.063e-07    (6.939%)
+c               = -3.49016e-06     +/- 3.081e-06    (88.29%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.996  1.000 
+c               0.889 -0.912  1.000 
